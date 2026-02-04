@@ -221,9 +221,9 @@
             />
 
             <div class="field">
-              <label class="label" for="files" data-i18n="form_attach"
-                >Adjuntar documentos:</label
-              >
+              <label class="label" for="files" data-i18n="form_attach">
+                Adjuntar documentos:
+              </label>
 
               <div class="file">
                 <input
@@ -238,17 +238,18 @@
                   class="file__button"
                   aria-hidden="true"
                   data-i18n="form_upload_btn"
-                  >Subir archivos…</span
                 >
+                  Subir archivos…
+                </span>
               </div>
 
               <p class="help" data-i18n="form_filetypes">PDF, JPG o PNG</p>
             </div>
 
             <div class="field">
-              <label class="label" for="message" data-i18n="form_message"
-                >Mensaje:</label
-              >
+              <label class="label" for="message" data-i18n="form_message">
+                Mensaje:
+              </label>
               <textarea
                 class="textarea"
                 id="message"
@@ -260,9 +261,9 @@
             </div>
 
             <div class="field">
-              <label class="label" for="name" data-i18n="form_name"
-                >Nombre:</label
-              >
+              <label class="label" for="name" data-i18n="form_name">
+                Nombre:
+              </label>
               <input
                 class="input"
                 id="name"
@@ -273,11 +274,10 @@
                 autocomplete="name"
               />
             </div>
-
             <div class="field">
-              <label class="label" for="email" data-i18n="form_email"
-                >Correo electrónico:</label
-              >
+              <label class="label" for="email" data-i18n="form_email">
+                Correo electrónico:
+              </label>
               <input
                 class="input"
                 id="email"
@@ -289,7 +289,31 @@
                 required
               />
             </div>
+            <div class="field">
+              <label class="label" for="urgency" data-i18n="form_urgency">
+                Plazo de entrega:
+              </label>
 
+              <select class="input" id="urgency" name="urgency" required>
+                <option
+                  value=""
+                  disabled
+                  selected
+                  data-i18n="form_urgency_placeholder"
+                >
+                  Seleccioná una opción
+                </option>
+                <option value="Normal (3–4 días)" data-i18n="urgency_normal">
+                  Normal (3–4 días)
+                </option>
+                <option value="Express (1–2 días)" data-i18n="urgency_express">
+                  Express (1–2 días)
+                </option>
+                <option value="Urgente (hoy)" data-i18n="urgency_urgent">
+                  Urgente (hoy)
+                </option>
+              </select>
+            </div>
             <button class="btn" type="submit" data-i18n="form_submit">
               Enviar documentos
             </button>

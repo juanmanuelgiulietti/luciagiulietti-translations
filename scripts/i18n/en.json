@@ -133,5 +133,11 @@
   "about_contact_text": "If you’d like to tell me about your project or have a question, reach out via:",
   "about_contact_email": "Email",
   "about_contact_linkedin": "LinkedIn",
-  "about_photo_caption": "Technical & scientific translator · NAATI (English ↔ Spanish)"
+  "about_photo_caption": "Technical & scientific translator · NAATI (English ↔ Spanish)",
+
+  "form_urgency": "Delivery time:",
+  "form_urgency_placeholder": "Select an option",
+  "urgency_normal": "Normal (3–4 days)",
+  "urgency_express": "Express (1–2 days)",
+  "urgency_urgent": "Urgent (today)"
 }

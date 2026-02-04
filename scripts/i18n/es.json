@@ -133,5 +133,11 @@
   "about_contact_text": "Si querés contarme sobre tu proyecto o tenés una consulta, escribime por:",
   "about_contact_email": "Email",
   "about_contact_linkedin": "LinkedIn",
-  "about_photo_caption": "Traductora técnico-científica · NAATI (inglés ↔ español)"
+  "about_photo_caption": "Traductora técnico-científica · NAATI (inglés ↔ español)",
+
+  "form_urgency": "Plazo de entrega:",
+  "form_urgency_placeholder": "Seleccioná una opción",
+  "urgency_normal": "Normal (3–4 días)",
+  "urgency_express": "Express (1–2 días)",
+  "urgency_urgent": "Urgente (hoy)"
 }
