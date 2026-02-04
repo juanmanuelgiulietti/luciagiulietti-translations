@@ -1,0 +1,42 @@
+.thanks-container {
+  max-width: 700px;
+  margin: 100px auto;
+  padding: 0 20px;
+  text-align: center;
+  color: var(--text-body);
+  font-family: var(--ff-body);
+}
+
+.thanks-title {
+  margin-bottom: 24px;
+  font-size: 2.2rem;
+  color: var(--text-dark);
+  font-family: var(--ff-title);
+}
+
+.thanks-text {
+  margin-bottom: 16px;
+  line-height: 1.6;
+}
+
+.thanks-highlight {
+  margin-top: 32px;
+  font-weight: 600;
+}
+
+.thanks-text a,
+.thanks-link {
+  font-weight: 600;
+  text-decoration: none;
+  color: inherit;
+}
+
+.thanks-link {
+  display: inline-block;
+  margin-top: 40px;
+}
+
+.thanks-text a:hover,
+.thanks-link:hover {
+  text-decoration: underline;
+}
