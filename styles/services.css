@@ -1,0 +1,89 @@
+.services {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.services h1 {
+  text-align: center;
+  padding: 2rem 0 1rem;
+  font-family: var(--ff-title);
+  color: var(--text-dark);
+  letter-spacing: 0.2px;
+}
+
+.service-section {
+  padding: 2rem;
+  margin: 2.5rem 0;
+  border-radius: 12px;
+  line-height: 1.55;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  color: var(--text-dark);
+}
+
+.service-section h2 {
+  font-family: var(--ff-heading);
+  font-weight: 650;
+}
+
+.service-section h4 {
+  margin-top: 0.5rem;
+  font-family: var(--ff-subheading);
+  font-weight: 700;
+}
+
+.service-section p {
+  font-family: var(--ff-body);
+  font-size: 17px;
+}
+
+.service-section ul {
+  padding-left: 1.2rem;
+  display: grid;
+  gap: 0.35rem;
+}
+
+.service-section li {
+  list-style: disc;
+  font-family: var(--ff-body-alt);
+}
+
+.service-section a {
+  font-family: var(--ff-ui);
+  font-weight: 600;
+}
+
+.service-section .btn {
+  margin-top: 0.6rem;
+}
+
+.section-1 { background-color: var(--green-500); }
+.section-2 { background-color: var(--green-300); }
+.section-3 { background-color: var(--green-800); border: none; }
+.section-4 { background-color: rgba(255, 255, 255, 0.7); }
+
+.section-4 h2::after {
+  content: " · Próximamente";
+  font-family: var(--ff-ui);
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: rgba(0, 0, 0, 0.55);
+}
+
+@media (max-width: 520px) {
+  .services { padding: 1.25rem; }
+
+  .service-section {
+    padding: 1.25rem;
+    margin: 1.75rem 0;
+  }
+}
