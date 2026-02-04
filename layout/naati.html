@@ -85,12 +85,12 @@
               >
             </li>
             <li class="nav-item">
-              <a href="../layout/aboutme.html" data-i18n="nav_about">Sobre mi</a>
+              <a href="../layout/aboutme.html" data-i18n="nav_about"
+                >Sobre mi</a
+              >
             </li>
             <li class="nav-item">
-              <a href="#" data-i18n="nav_quote"
-                >Cotización NAATI</a
-              >
+              <a href="#" data-i18n="nav_quote">Cotización NAATI</a>
             </li>
 
             <div class="languages languages-mobile">
@@ -132,7 +132,235 @@
         </div>
       </div>
     </header>
-        <footer class="site-footer">
+    <main>
+      <div class="quote-page">
+        <div class="quote-title">
+          <h1 data-i18n="quote_title">Cotización de traducciones NAATI</h1>
+          <p data-i18n="quote_p1">
+            Enviá tus documentos y revisamos todo por vos.
+          </p>
+          <p data-i18n="quote_p2">
+            Te respondemos con una cotización clara y el plazo de entrega, sin
+            compromiso.
+          </p>
+        </div>
+
+        <section
+          class="quote-timeline"
+          aria-label="Pasos para solicitar una cotización NAATI"
+        >
+          <ol class="timeline">
+            <li class="timeline__item">
+              <span class="timeline__marker" aria-hidden="true"></span>
+              <div class="timeline__content">
+                <h3 class="timeline__title" data-i18n="timeline_t1">
+                  Enviás tus documentos
+                </h3>
+                <p class="timeline__text" data-i18n="timeline_p1">
+                  Adjuntalos en PDF o foto (JPG/PNG). Si falta algo, te
+                  avisamos.
+                </p>
+              </div>
+            </li>
+
+            <li class="timeline__item">
+              <span class="timeline__marker" aria-hidden="true"></span>
+              <div class="timeline__content">
+                <h3 class="timeline__title" data-i18n="timeline_t2">
+                  Los revisamos
+                </h3>
+                <p class="timeline__text" data-i18n="timeline_p2">
+                  Vemos cantidad de páginas, formato y complejidad para cotizar
+                  con precisión.
+                </p>
+              </div>
+            </li>
+
+            <li class="timeline__item">
+              <span class="timeline__marker" aria-hidden="true"></span>
+              <div class="timeline__content">
+                <h3 class="timeline__title" data-i18n="timeline_t3">
+                  Recibís precio y plazo
+                </h3>
+                <p class="timeline__text" data-i18n="timeline_p3">
+                  Te enviamos la cotización y el plazo de entrega. Confirmás
+                  solo si te sirve.
+                </p>
+              </div>
+            </li>
+          </ol>
+        </section>
+
+        <section class="quote-form" aria-label="Formulario de cotización NAATI">
+          <form
+            class="form"
+            action="https://api.web3forms.com/submit"
+            method="POST"
+            enctype="multipart/form-data"
+          >
+            <input
+              type="hidden"
+              name="access_key"
+              value="40c39a96-f60a-4ce7-8965-bbe85a4749fb"
+            />
+            <input
+              type="hidden"
+              name="subject"
+              value="Nueva cotización NAATI"
+            />
+            <input
+              type="hidden"
+              name="from_name"
+              value="Formulario web – Lucia Giulietti"
+            />
+            <input type="hidden" name="replyto" value="%email%" />
+            <input
+              type="hidden"
+              name="redirect"
+              value="https://juanmanuelgiulietti.github.io/luciagiulietti-website/thankYou.html"
+            />
+
+            <div class="field">
+              <label class="label" for="files" data-i18n="form_attach"
+                >Adjuntar documentos:</label
+              >
+
+              <div class="file">
+                <input
+                  class="file__input"
+                  id="files"
+                  name="files"
+                  type="file"
+                  accept=".pdf,.jpg,.jpeg,.png"
+                  multiple
+                />
+                <span
+                  class="file__button"
+                  aria-hidden="true"
+                  data-i18n="form_upload_btn"
+                  >Subir archivos…</span
+                >
+              </div>
+
+              <p class="help" data-i18n="form_filetypes">PDF, JPG o PNG</p>
+            </div>
+
+            <div class="field">
+              <label class="label" for="message" data-i18n="form_message"
+                >Mensaje:</label
+              >
+              <textarea
+                class="textarea"
+                id="message"
+                name="message"
+                rows="6"
+                data-i18n-placeholder="ph_message"
+                placeholder="Escribinos cualquier detalle o consulta aquí…"
+              ></textarea>
+            </div>
+
+            <div class="field">
+              <label class="label" for="name" data-i18n="form_name"
+                >Nombre:</label
+              >
+              <input
+                class="input"
+                id="name"
+                name="name"
+                type="text"
+                data-i18n-placeholder="ph_name"
+                placeholder="Tu nombre"
+                autocomplete="name"
+              />
+            </div>
+
+            <div class="field">
+              <label class="label" for="email" data-i18n="form_email"
+                >Correo electrónico:</label
+              >
+              <input
+                class="input"
+                id="email"
+                name="email"
+                type="email"
+                data-i18n-placeholder="ph_email"
+                placeholder="tumail@example.com"
+                autocomplete="email"
+                required
+              />
+            </div>
+
+            <button class="btn" type="submit" data-i18n="form_submit">
+              Enviar documentos
+            </button>
+          </form>
+        </section>
+
+        <section class="faq-container">
+          <h2 class="faq-title" data-i18n="faq_title">Preguntas frecuentes</h2>
+
+          <div class="faq">
+            <h2 data-i18n="faq1_q">
+              ¿Cuánto cuesta una traducción NAATI? ¿Cuál es el plazo de entrega?
+            </h2>
+            <p data-i18n="faq1_p1">
+              La cotización y el plazo de entrega dependerán de la cantidad de
+              páginas, el formato del documento y la complejidad del contenido.
+            </p>
+            <p data-i18n="faq1_p2">
+              En general, los documentos de una página (licencias de conducir,
+              certificados de nacimiento, antecedentes penales, etc.) se
+              entregan dentro de las 24 horas luego de la confirmación con el
+              pago. En el caso de documentos más largos, la entrega suele ser
+              entre 2–4 días hábiles.
+            </p>
+            <p data-i18n="faq1_p3">
+              Se aplicará un recargo del 15 % para documentos urgentes.
+              Enviaremos una cotización y un plazo de entrega precisos una vez
+              que recibamos los documentos.
+            </p>
+          </div>
+
+          <div class="faq">
+            <h2 data-i18n="faq2_q">¿Cuáles son las formas de pago?</h2>
+            <p data-i18n="faq2_p1">
+              Compartiremos los datos bancarios para realizar una transferencia
+              en AUD o le brindaremos otras opciones en caso de no poseer cuenta
+              bancaria en Australia. Los encargos de traducción se confirman con
+              el 100 % del pago.
+            </p>
+          </div>
+
+          <div class="faq">
+            <h2 data-i18n="faq3_q">¿Cuáles son las formas de entrega?</h2>
+            <p data-i18n="faq3_p1">
+              Se entregará una traducción con sello digital por correo
+              electrónico, a menos que el cliente solicite una traducción física
+              con sello en tinta para enviar por correo postal. En caso de
+              necesitar una traducción impresa, se deberá aclarar antes de
+              confirmar el encargo y el envío estará a cargo del cliente.
+            </p>
+            <p data-i18n="faq3_p2">
+              Es importante aclarar que las traducciones digitales NAATI son
+              igual de válidas que las traducciones con sello en tinta.
+            </p>
+          </div>
+
+          <div class="faq">
+            <h2 data-i18n="faq4_q">¿Qué es NAATI?</h2>
+            <p data-i18n="faq4_p1">
+              NAATI es la autoridad nacional de normas y certificación para
+              traductores e intérpretes en Australia. Las traducciones NAATI no
+              tienen vencimiento y no requieren ningún otro trámite de
+              legalización para ser válidas. Mediante su sistema de
+              certificación, NAATI garantiza que los servicios lingüísticos
+              cumplan con los estándares más altos de la industria.
+            </p>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer">
       <div class="footer-container">
         <div class="footer-brand">
           <p class="footer-name" data-i18n="footer_name">
@@ -156,12 +384,12 @@
               >
             </li>
             <li>
-              <a href="../layout/aboutme.html" data-i18n="nav_about_footer">Sobre mi</a>
+              <a href="../layout/aboutme.html" data-i18n="nav_about_footer"
+                >Sobre mi</a
+              >
             </li>
             <li>
-              <a href="#" data-i18n="nav_quote"
-                >Cotización NAATI</a
-              >
+              <a href="#" data-i18n="nav_quote">Cotización NAATI</a>
             </li>
           </ul>
         </nav>
