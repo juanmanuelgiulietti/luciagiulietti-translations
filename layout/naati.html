@@ -168,57 +168,58 @@
         </div>
       </div>
     </header>
+
     <main>
       <div class="quote-page">
         <div class="quote-title">
-          <h1 data-i18n="quote_title">Cotización de traducciones NAATI</h1>
-          <p data-i18n="quote_p1">
+          <h1 class="reveal" data-i18n="quote_title">Cotización de traducciones NAATI</h1>
+          <p class="reveal reveal--d1" data-i18n="quote_p1">
             Enviá tus documentos y revisamos todo por vos.
           </p>
-          <p data-i18n="quote_p2">
+          <p class="reveal reveal--d2" data-i18n="quote_p2">
             Te respondemos con una cotización clara y el plazo de entrega, sin
             compromiso.
           </p>
         </div>
 
         <section
-          class="quote-timeline"
+          class="quote-timeline reveal reveal--d1"
           aria-label="Pasos para solicitar una cotización NAATI"
         >
           <ol class="timeline">
-            <li class="timeline__item">
+            <li class="timeline__item reveal">
               <span class="timeline__marker" aria-hidden="true"></span>
               <div class="timeline__content">
-                <h3 class="timeline__title" data-i18n="timeline_t1">
+                <h3 class="timeline__title reveal reveal--d1" data-i18n="timeline_t1">
                   Enviás tus documentos
                 </h3>
-                <p class="timeline__text" data-i18n="timeline_p1">
+                <p class="timeline__text reveal reveal--d2" data-i18n="timeline_p1">
                   Adjuntalos en PDF o foto (JPG/PNG). Si falta algo, te
                   avisamos.
                 </p>
               </div>
             </li>
 
-            <li class="timeline__item">
+            <li class="timeline__item reveal reveal--d1">
               <span class="timeline__marker" aria-hidden="true"></span>
               <div class="timeline__content">
-                <h3 class="timeline__title" data-i18n="timeline_t2">
+                <h3 class="timeline__title reveal reveal--d2" data-i18n="timeline_t2">
                   Los revisamos
                 </h3>
-                <p class="timeline__text" data-i18n="timeline_p2">
+                <p class="timeline__text reveal reveal--d3" data-i18n="timeline_p2">
                   Vemos cantidad de páginas, formato y complejidad para cotizar
                   con precisión.
                 </p>
               </div>
             </li>
 
-            <li class="timeline__item">
+            <li class="timeline__item reveal reveal--d2">
               <span class="timeline__marker" aria-hidden="true"></span>
               <div class="timeline__content">
-                <h3 class="timeline__title" data-i18n="timeline_t3">
+                <h3 class="timeline__title reveal reveal--d2" data-i18n="timeline_t3">
                   Recibís precio y plazo
                 </h3>
-                <p class="timeline__text" data-i18n="timeline_p3">
+                <p class="timeline__text reveal reveal--d3" data-i18n="timeline_p3">
                   Te enviamos la cotización y el plazo de entrega. Confirmás
                   solo si te sirve.
                 </p>
@@ -227,9 +228,9 @@
           </ol>
         </section>
 
-        <section class="quote-form" aria-label="Formulario de cotización NAATI">
+        <section class="quote-form reveal" aria-label="Formulario de cotización NAATI">
           <form
-            class="form"
+            class="form reveal reveal--d1"
             action="https://api.web3forms.com/submit"
             method="POST"
             enctype="multipart/form-data"
@@ -256,12 +257,12 @@
               value="https://juanmanuelgiulietti.github.io/luciagiulietti-website/thankYou.html"
             />
 
-            <div class="field">
-              <label class="label" for="files" data-i18n="form_attach">
+            <div class="field reveal">
+              <label class="label reveal" for="files" data-i18n="form_attach">
                 Adjuntar documentos:
               </label>
 
-              <div class="file">
+              <div class="file reveal reveal--d1">
                 <input
                   class="file__input"
                   id="files"
@@ -279,10 +280,10 @@
                 </span>
               </div>
 
-              <p class="help" data-i18n="form_filetypes">PDF, JPG o PNG</p>
+              <p class="help reveal reveal--d2" data-i18n="form_filetypes">PDF, JPG o PNG</p>
             </div>
 
-            <div class="field">
+            <div class="field reveal reveal--d1">
               <label class="label" for="message" data-i18n="form_message">
                 Mensaje:
               </label>
@@ -296,7 +297,7 @@
               ></textarea>
             </div>
 
-            <div class="field">
+            <div class="field reveal reveal--d2">
               <label class="label" for="name" data-i18n="form_name">
                 Nombre:
               </label>
@@ -310,7 +311,8 @@
                 autocomplete="name"
               />
             </div>
-            <div class="field">
+
+            <div class="field reveal reveal--d3">
               <label class="label" for="email" data-i18n="form_email">
                 Correo electrónico:
               </label>
@@ -325,7 +327,8 @@
                 required
               />
             </div>
-            <div class="field">
+
+            <div class="field reveal">
               <label class="label" for="urgency" data-i18n="form_urgency">
                 Plazo de entrega:
               </label>
@@ -350,16 +353,17 @@
                 </option>
               </select>
             </div>
-            <button class="btn" type="submit" data-i18n="form_submit">
+
+            <button class="btn reveal reveal--d1" type="submit" data-i18n="form_submit">
               Enviar documentos
             </button>
           </form>
         </section>
 
         <section class="faq-container">
-          <h2 class="faq-title" data-i18n="faq_title">Preguntas frecuentes</h2>
+          <h2 class="faq-title reveal" data-i18n="faq_title">Preguntas frecuentes</h2>
 
-          <div class="faq">
+          <div class="faq reveal reveal--d1">
             <h2 data-i18n="faq1_q">
               ¿Cuánto cuesta una traducción NAATI? ¿Cuál es el plazo de entrega?
             </h2>
@@ -381,7 +385,7 @@
             </p>
           </div>
 
-          <div class="faq">
+          <div class="faq reveal reveal--d2">
             <h2 data-i18n="faq2_q">¿Cuáles son las formas de pago?</h2>
             <p data-i18n="faq2_p1">
               Compartiremos los datos bancarios para realizar una transferencia
@@ -391,7 +395,7 @@
             </p>
           </div>
 
-          <div class="faq">
+          <div class="faq reveal reveal--d3">
             <h2 data-i18n="faq3_q">¿Cuáles son las formas de entrega?</h2>
             <p data-i18n="faq3_p1">
               Se entregará una traducción con sello digital por correo
@@ -406,7 +410,7 @@
             </p>
           </div>
 
-          <div class="faq">
+          <div class="faq reveal">
             <h2 data-i18n="faq4_q">¿Qué es NAATI?</h2>
             <p data-i18n="faq4_p1">
               NAATI es la autoridad nacional de normas y certificación para
@@ -420,6 +424,7 @@
         </section>
       </div>
     </main>
+
     <footer class="site-footer">
       <div class="footer-container">
         <div class="footer-brand">
@@ -490,6 +495,7 @@
         </p>
       </div>
     </footer>
+
     <a
       href="mailto:luciagiulietti@hotmail.com"
       class="mail-float"
