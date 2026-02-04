@@ -1,0 +1,81 @@
+.site-footer {
+  background-color: var(--green-300);
+  color: rgba(255, 255, 255, 0.92);
+  padding: 64px 24px 32px;
+  font-family: var(--ff-ui);
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 40px;
+}
+
+/* Brand */
+.footer-name {
+  font-family: var(--ff-title);
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.footer-tagline {
+  margin-bottom: 12px;
+  opacity: 0.85;
+}
+
+.footer-location {
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+
+/* Sections */
+.footer-title {
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  margin-bottom: 12px;
+}
+
+.footer-nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-nav li {
+  margin-bottom: 8px;
+}
+
+/* Links */
+.site-footer a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+}
+
+/* Trust */
+.footer-trust p {
+  margin-bottom: 8px;
+}
+
+/* Languages */
+.footer-languages {
+  margin-top: 12px;
+  font-family: var(--ff-body-alt);
+  font-size: 0.9rem;
+  opacity: 0.85;
+}
+
+/* Bottom */
+.footer-bottom {
+  margin-top: 48px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  text-align: center;
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
