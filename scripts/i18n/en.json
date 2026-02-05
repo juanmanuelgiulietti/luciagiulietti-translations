@@ -137,7 +137,6 @@
 
   "form_urgency": "Delivery time:",
   "form_urgency_placeholder": "Select an option",
-  "urgency_normal": "Normal (3–4 days)",
-  "urgency_express": "Express (1–2 days)",
+  "urgency_express": "Normal (1–2 days)",
   "urgency_urgent": "Urgent (today)"
 }
