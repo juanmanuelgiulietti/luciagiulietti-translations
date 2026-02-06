@@ -230,34 +230,7 @@
         </section>
 
         <section class="quote-form" aria-label="Formulario de cotización NAATI">
-          <form
-            class="form"
-            action="https://api.web3forms.com/submit"
-            method="POST"
-            enctype="multipart/form-data"
-          >
-            <input
-              type="hidden"
-              name="access_key"
-              value="40c39a96-f60a-4ce7-8965-bbe85a4749fb"
-            />
-            <input
-              type="hidden"
-              name="subject"
-              value="Nueva cotización NAATI"
-            />
-            <input
-              type="hidden"
-              name="from_name"
-              value="Formulario web – Lucia Giulietti"
-            />
-            <input type="hidden" name="replyto" value="%email%" />
-            <input
-              type="hidden"
-              name="redirect"
-              value="https://juanmanuelgiulietti.github.io/luciagiulietti-website/thankYou.html"
-            />
-
+          <form class="form" id="quoteForm" novalidate>
             <div class="field">
               <label class="label" for="files" data-i18n="form_attach">
                 Adjuntar documentos:
@@ -281,7 +254,9 @@
                 </span>
               </div>
 
-              <p class="help" data-i18n="form_filetypes">PDF, JPG o PNG</p>
+              <p class="help" data-i18n="form_file_note">
+                Los archivos se adjuntarán luego por correo electrónico
+              </p>
             </div>
 
             <div class="field">
@@ -312,6 +287,7 @@
                 autocomplete="name"
               />
             </div>
+
             <div class="field">
               <label class="label" for="email" data-i18n="form_email">
                 Correo electrónico:
@@ -327,6 +303,7 @@
                 required
               />
             </div>
+
             <div class="field">
               <label class="label" for="urgency" data-i18n="form_urgency">
                 Plazo de entrega:
@@ -341,7 +318,7 @@
                 >
                   Seleccioná una opción
                 </option>
-                <option value="Express (1–2 días)" data-i18n="urgency_express">
+                <option value="Normal (1–2 días)" data-i18n="urgency_express">
                   Normal (1–2 días)
                 </option>
                 <option value="Urgente (hoy)" data-i18n="urgency_urgent">
@@ -349,8 +326,9 @@
                 </option>
               </select>
             </div>
+
             <button class="btn" type="submit" data-i18n="form_submit">
-              Enviar documentos
+              Enviar consulta
             </button>
           </form>
         </section>
