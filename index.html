@@ -132,8 +132,8 @@
             <div class="languages languages-mobile">
               <form action="#">
                 <label for="lang-mobile" class="lang-label"
-                  ><span>🌐</span></label
-                >
+                  ><span><i class="fa-solid fa-globe"></i></span
+                ></label>
                 <select
                   name="lenguajes"
                   id="lang-mobile"
@@ -150,7 +150,9 @@
 
         <div class="languages">
           <form action="#">
-            <label for="lang" class="lang-label"><span>🌐</span></label>
+            <label for="lang" class="lang-label"
+              ><span><i class="fa-solid fa-globe"></i></span
+            ></label>
             <select
               name="lenguajes"
               id="lang"
@@ -173,16 +175,22 @@
         <div class="hero-text">
           <h1 class="reveal" data-i18n="home_h1">Traducciones profesionales</h1>
 
-          <h2 class="reveal reveal--d1" data-i18n="home_h2">
-            Traducciones técnico-científicas · Certificadas NAATI
-          </h2>
+          <div class="hero-services reveal reveal--d1">
+            <div class="service-box" data-i18n="home_service_tech">
+              Traducciones<br />técnico-científicas
+            </div>
+
+            <div class="service-box" data-i18n="home_service_naati">
+              Traducciones<br />certificadas NAATI
+            </div>
+          </div>
 
           <p class="reveal reveal--d2" data-i18n="home_p">
             Traducciones de calidad y rápidas realizadas por profesionales
             capacitados
           </p>
           <button class="btn reveal reveal--d3">
-            <a href="./layout/naati.html" data-i18n="home_cta"
+            <a href="mailto:luciagiulietti@hotmail.com" data-i18n="home_cta"
               >Pedir cotización</a
             >
           </button>
@@ -248,8 +256,8 @@
               </div>
               <h3 data-i18n="svc1_title">Traducciones técnico-científicas</h3>
               <p data-i18n="svc1_p">
-                Traducciones precisas y especializadas para documentos técnicos,
-                científicos.
+                Traducciones precisas y especializadas para documentos técnicos
+                o científicos.
               </p>
               <a href="../layout/services.html" data-i18n="see_more"
                 >Ver más →</a
@@ -302,8 +310,8 @@
               </div>
               <h3 data-i18n="svc5_title">Edición y MTPE</h3>
               <p data-i18n="svc5_p">
-                Revisión profesional de textos traducidos con herramientas
-                automáticas o memorias.
+                Revisión profesional de textos o de traducciones realizadas con
+                herramientas automáticas.
               </p>
               <a href="../layout/services.html" data-i18n="see_more"
                 >Ver más →</a
@@ -350,12 +358,10 @@
               Atención humana
             </h3>
             <p class="value-feature-text" data-i18n="feat1_p">
-              Desde el primer contacto, hablarás con un profesional que se
-              adaptará a tus necesidades, resolverá tus dudas y te ayudará a
-              cumplir tus objetivos, ya que entendemos que, detrás de una
-              traducción, hay una esperanza de crecimiento de tu negocio, una
-              nueva oportunidad laboral o la posibilidad de mudarte a un nuevo
-              país. Sabemos lo que eso significa y queremos apoyarte.
+              Hablarás con un profesional que se adaptará a tus necesidades,
+              resolverá tus dudas y te ayudará a cumplir tus objetivos, ya que
+              entendemos que, detrás de una traducción, hay una persona que
+              busca cumplir un sueño migratorio, laboral o educativo.
             </p>
           </article>
 
@@ -366,11 +372,9 @@
             <p class="value-feature-text" data-i18n="feat2_p">
               Cuando trabajamos con documentos importantes, la precisión es
               esencial. Por eso, nuestras traducciones están en manos de
-              profesionales especializados en salud, migración, educación,
-              e-learning, asuntos ambientales y agricultura, entre otros temas.
-              De este modo, utilizamos la terminología adecuada y nos ajustamos
-              a los estándares de cada industria para que las traducciones sean
-              aceptadas por las autoridades correspondientes.
+              profesionales especializados que utilizan la terminología adecuada
+              y se ajustan a los estándares de cada industria para que las
+              traducciones sean aceptadas por las autoridades correspondientes.
             </p>
           </article>
 
@@ -379,13 +383,11 @@
               Rapidez y confidencialidad
             </h3>
             <p class="value-feature-text" data-i18n="feat3_p">
-              Sabemos que, para lanzar un producto al mercado, aplicar a una
-              visa o ganar un cliente en el extranjero, el tiempo es muy
-              valioso. Por eso, nos aseguramos de brindarte plazos de entrega
-              convenientes y claros, de modo que puedas planear tu estrategia
-              sin retrasos. Tus documentos están seguros: nos adherimos al
-              código de ética de NAATI y AUSIT para garantizar la
-              confidencialidad en todas las traducciones.
+              Sabemos que el tiempo es muy valioso. Por eso, nos aseguramos de
+              brindarte plazos de entrega convenientes y claros, de modo que
+              puedas planear tu estrategia sin retrasos. Garantizamos la
+              confidencialidad de tus documentos y nos adherimos al código de
+              ética de NAATI y AUSIT.
             </p>
           </article>
         </div>
@@ -406,11 +408,11 @@
     <footer class="site-footer">
       <div class="footer-container">
         <div class="footer-brand">
-          <p class="footer-name" data-i18n="footer_name">
+          <p class="footer-title" data-i18n="footer_name">
             Lucía Giulietti – Translations
           </p>
           <p class="footer-tagline" data-i18n="footer_tagline">
-            Traducciones profesionales inglés ↔ español
+            Traducciones profesionales inglés - español
           </p>
           <p class="footer-location" data-i18n="footer_location">
             Australia · Servicio internacional
@@ -460,9 +462,6 @@
           <p class="footer-title" data-i18n="footer_cred_title">Credenciales</p>
           <p data-i18n="footer_cred_1">Traductora certificada NAATI</p>
           <p data-i18n="footer_cred_2">Miembro de AUSIT</p>
-          <p data-i18n="footer_cred_3">
-            Traducciones NAATI válidas en Australia
-          </p>
           <p class="footer-languages" data-i18n="footer_langs">
             Español · English
           </p>
@@ -485,5 +484,9 @@
 
     <script src="./scripts/i18n.js"></script>
     <script src="./scripts/scripts.js"></script>
+    <script
+      src="https://kit.fontawesome.com/5735417465.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

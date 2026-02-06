@@ -132,8 +132,8 @@
             <div class="languages languages-mobile">
               <form action="#">
                 <label for="lang-mobile" class="lang-label"
-                  ><span>🌐</span></label
-                >
+                  ><span><i class="fa-solid fa-globe"></i></span
+                ></label>
                 <select
                   name="lenguajes"
                   id="lang-mobile"
@@ -150,7 +150,9 @@
 
         <div class="languages">
           <form action="#">
-            <label for="lang" class="lang-label"><span>🌐</span></label>
+            <label for="lang" class="lang-label"
+              ><span><i class="fa-solid fa-globe"></i></span
+            ></label>
             <select
               name="lenguajes"
               id="lang"
@@ -228,65 +230,12 @@
           </ol>
         </section>
 
-        <section class="quote-form reveal" aria-label="Formulario de cotización NAATI">
-          <form
-            class="form reveal reveal--d1"
-            action="https://api.web3forms.com/submit"
-            method="POST"
-            enctype="multipart/form-data"
-          >
-            <input
-              type="hidden"
-              name="access_key"
-              value="40c39a96-f60a-4ce7-8965-bbe85a4749fb"
-            />
-            <input
-              type="hidden"
-              name="subject"
-              value="Nueva cotización NAATI"
-            />
-            <input
-              type="hidden"
-              name="from_name"
-              value="Formulario web – Lucia Giulietti"
-            />
-            <input type="hidden" name="replyto" value="%email%" />
-            <input
-              type="hidden"
-              name="redirect"
-              value="https://juanmanuelgiulietti.github.io/luciagiulietti-website/thankYou.html"
-            />
-
-            <div class="field reveal">
-              <label class="label reveal" for="files" data-i18n="form_attach">
-                Adjuntar documentos:
-              </label>
-
-              <div class="file reveal reveal--d1">
-                <input
-                  class="file__input"
-                  id="files"
-                  name="files"
-                  type="file"
-                  accept=".pdf,.jpg,.jpeg,.png"
-                  multiple
-                />
-                <span
-                  class="file__button"
-                  aria-hidden="true"
-                  data-i18n="form_upload_btn"
-                >
-                  Subir archivos…
-                </span>
-              </div>
-
-              <p class="help reveal reveal--d2" data-i18n="form_filetypes">PDF, JPG o PNG</p>
-            </div>
-
-            <div class="field reveal reveal--d1">
-              <label class="label" for="message" data-i18n="form_message">
-                Mensaje:
-              </label>
+        <section class="quote-form" aria-label="Formulario de cotización NAATI">
+          <form class="form" id="quoteForm" novalidate>
+            <div class="field">
+              <label class="label" for="message" data-i18n="form_message"
+                >Mensaje:</label
+              >
               <textarea
                 class="textarea"
                 id="message"
@@ -297,10 +246,17 @@
               ></textarea>
             </div>
 
+<<<<<<< HEAD
             <div class="field reveal reveal--d2">
               <label class="label" for="name" data-i18n="form_name">
                 Nombre:
               </label>
+=======
+            <div class="field">
+              <label class="label" for="name" data-i18n="form_name"
+                >Nombre:</label
+              >
+>>>>>>> desarrollo
               <input
                 class="input"
                 id="name"
@@ -312,10 +268,17 @@
               />
             </div>
 
+<<<<<<< HEAD
             <div class="field reveal reveal--d3">
               <label class="label" for="email" data-i18n="form_email">
                 Correo electrónico:
               </label>
+=======
+            <div class="field">
+              <label class="label" for="email" data-i18n="form_email"
+                >Correo electrónico:</label
+              >
+>>>>>>> desarrollo
               <input
                 class="input"
                 id="email"
@@ -327,12 +290,19 @@
                 required
               />
             </div>
+<<<<<<< HEAD
 
             <div class="field reveal">
               <label class="label" for="urgency" data-i18n="form_urgency">
                 Plazo de entrega:
               </label>
+=======
+>>>>>>> desarrollo
 
+            <div class="field">
+              <label class="label" for="urgency" data-i18n="form_urgency"
+                >Plazo de entrega:</label
+              >
               <select class="input" id="urgency" name="urgency" required>
                 <option
                   value=""
@@ -351,8 +321,13 @@
               </select>
             </div>
 
+<<<<<<< HEAD
             <button class="btn reveal reveal--d1" type="submit" data-i18n="form_submit">
               Enviar documentos
+=======
+            <button class="btn" type="submit" data-i18n="form_submit">
+              Enviar consulta
+>>>>>>> desarrollo
             </button>
           </form>
         </section>
@@ -411,11 +386,20 @@
             <h2 data-i18n="faq4_q">¿Qué es NAATI?</h2>
             <p data-i18n="faq4_p1">
               NAATI es la autoridad nacional de normas y certificación para
-              traductores e intérpretes en Australia. Las traducciones NAATI no
-              tienen vencimiento y no requieren ningún otro trámite de
-              legalización para ser válidas. Mediante su sistema de
-              certificación, NAATI garantiza que los servicios lingüísticos
-              cumplan con los estándares más altos de la industria.
+              traductores e intérpretes en Australia. Las traducciones no tienen
+              fecha de vencimiento. AUSIT significa “Instituto Australiano de
+              Intérpretes y Traductores” y representa a los profesionales
+              lingüísticos a nivel nacional en Australia para garantizar
+              estándares de calidad y ética.
+            </p>
+          </div>
+          <div class="faq">
+            <h2 data-i18n="faq5_q">¿Qué es AUSIT?</h2>
+            <p data-i18n="faq5_p1">
+              El Instituto Australiano de Intérpretes y Traductores (AUSIT) es
+              la asociación nacional de la profesión de traducción e
+              interpretación. Nuestros miembros se adhieren a un estricto Código
+              de Ética y se mantienen en constante desarrollo profesional.
             </p>
           </div>
         </section>
@@ -429,7 +413,7 @@
             Lucía Giulietti – Translations
           </p>
           <p class="footer-tagline" data-i18n="footer_tagline">
-            Traducciones profesionales inglés ↔ español
+            Traducciones profesionales inglés - español
           </p>
           <p class="footer-location" data-i18n="footer_location">
             Australia · Servicio internacional
@@ -477,9 +461,6 @@
           <p class="footer-title" data-i18n="footer_cred_title">Credenciales</p>
           <p data-i18n="footer_cred_1">Traductora certificada NAATI</p>
           <p data-i18n="footer_cred_2">Miembro de AUSIT</p>
-          <p data-i18n="footer_cred_3">
-            Traducciones NAATI válidas en Australia
-          </p>
           <p class="footer-languages" data-i18n="footer_langs">
             Español · English
           </p>
@@ -502,5 +483,9 @@
     </a>
     <script src="../scripts/i18n.js"></script>
     <script src="../scripts/scripts.js"></script>
+    <script
+      src="https://kit.fontawesome.com/5735417465.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

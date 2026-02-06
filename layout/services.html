@@ -145,8 +145,8 @@
             <div class="languages languages-mobile">
               <form action="#">
                 <label for="lang-mobile" class="lang-label"
-                  ><span>🌐</span></label
-                >
+                  ><span><i class="fa-solid fa-globe"></i></span
+                ></label>
                 <select
                   name="lenguajes"
                   id="lang-mobile"
@@ -163,7 +163,9 @@
 
         <div class="languages">
           <form action="#">
-            <label for="lang" class="lang-label"><span>🌐</span></label>
+            <label for="lang" class="lang-label"
+              ><span><i class="fa-solid fa-globe"></i></span
+            ></label>
             <select
               name="lenguajes"
               id="lang"
@@ -184,37 +186,7 @@
 
     <main>
       <div class="services">
-        <h1 class="reveal" data-i18n="services_page_title">Nuestros servicios</h1>
-
-        <section class="service-section section-1">
-          <h2 class="reveal" data-i18n="srv1_title">
-            Traducciones técnico-científicas
-          </h2>
-
-          <p class="reveal reveal--d1" data-i18n="srv1_p">
-            Trabajamos en diversas industrias y ayudamos a los negocios a
-            expandirse, ganar más clientes y cumplir con los estándares de
-            calidad y expectativas culturales de cada país. Creamos memorias de
-            traducción para mantener la consistencia y bases terminológicas para
-            garantizar la precisión con cada cliente.
-          </p>
-
-          <ul class="reveal reveal--d2">
-            <li data-i18n="srv1_li1">Salud</li>
-            <li data-i18n="srv1_li2">Migración</li>
-            <li data-i18n="srv1_li3">Ambiente y conservación</li>
-            <li data-i18n="srv1_li4">E-learning</li>
-            <li data-i18n="srv1_li5">Agricultura</li>
-            <li data-i18n="srv1_li6">Localización de sitios web</li>
-          </ul>
-
-          <button class="btn reveal reveal--d3">
-            <a href="mailto:luciagiulietti@hotmail.com" data-i18n="btn_quote"
-              >Pedir cotización</a
-            >
-          </button>
-        </section>
-
+        <h1 data-i18n="services_page_title">Nuestros servicios</h1>
         <section class="service-section section-2">
           <h2 class="reveal" data-i18n="srv2_title">
             Traducciones certificadas NAATI
@@ -261,6 +233,27 @@
           </button>
         </section>
 
+        <section class="service-section section-1">
+          <h2 data-i18n="srv1_title">Traducciones técnico-científicas</h2>
+          <p data-i18n="srv1_p">
+            Trabajamos con diversas industrias y ayudamos a los negocios a expandirse, ganar más clientes y cumplir con los estándares de calidad y expectativas culturales de cada país. Creamos memorias de traducción para mantener la consistencia y bases terminológicas para garantizar la precisión con cada cliente.
+          </p>
+          <ul>
+            <li data-i18n="srv1_li1">Salud</li>
+            <li data-i18n="srv1_li2">Migración</li>
+            <li data-i18n="srv1_li3">Ambiente y conservación</li>
+            <li data-i18n="srv1_li4">E-learning y educación</li>
+            <li data-i18n="srv1_li5">Agricultura</li>
+            <li data-i18n="srv1_li6">Localización de sitios web</li>
+            <li data-i18n="srv1_li7">Otros documentos técnicos y científicos</li>
+          </ul>
+          <button class="btn">
+            <a href="mailto:luciagiulietti@hotmail.com" data-i18n="btn_quote"
+              >Pedir cotización</a
+            >
+          </button>
+        </section>
+
         <section class="service-section section-3">
           <h2 class="reveal" data-i18n="srv3_title">Edición y MTPE</h2>
 
@@ -289,7 +282,7 @@
             Lucía Giulietti – Translations
           </p>
           <p class="footer-tagline" data-i18n="footer_tagline">
-            Traducciones profesionales inglés ↔ español
+            Traducciones profesionales inglés - español
           </p>
           <p class="footer-location" data-i18n="footer_location">
             Australia · Servicio internacional
@@ -337,9 +330,6 @@
           <p class="footer-title" data-i18n="footer_cred_title">Credenciales</p>
           <p data-i18n="footer_cred_1">Traductora certificada NAATI</p>
           <p data-i18n="footer_cred_2">Miembro de AUSIT</p>
-          <p data-i18n="footer_cred_3">
-            Traducciones NAATI válidas en Australia
-          </p>
           <p class="footer-languages" data-i18n="footer_langs">
             Español · English
           </p>
@@ -363,5 +353,9 @@
 
     <script src="../scripts/i18n.js"></script>
     <script src="../scripts/scripts.js"></script>
+    <script
+      src="https://kit.fontawesome.com/5735417465.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
