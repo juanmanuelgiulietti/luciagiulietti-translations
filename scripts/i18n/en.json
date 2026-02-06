@@ -15,16 +15,13 @@
   "timeline_t3": "You receive price and timeframe",
   "timeline_p3": "We send the quote and delivery time. You confirm only if it works for you.",
 
-  "form_attach": "Attach documents:",
-  "form_upload_btn": "Upload files…",
-  "form_filetypes": "PDF, JPG or PNG",
   "form_message": "Message:",
   "ph_message": "Write any details or questions here…",
   "form_name": "Name:",
   "ph_name": "Your name",
   "form_email": "Email address:",
   "ph_email": "you@example.com",
-  "form_submit": "Send documents",
+  "form_submit": "Send inquiry",
 
   "faq_title": "Frequently asked questions",
 

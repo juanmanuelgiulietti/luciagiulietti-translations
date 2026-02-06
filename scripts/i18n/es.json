@@ -15,16 +15,13 @@
   "timeline_t3": "Recibís precio y plazo",
   "timeline_p3": "Te enviamos la cotización y el plazo de entrega. Confirmás solo si te sirve.",
 
-  "form_attach": "Adjuntar documentos:",
-  "form_upload_btn": "Subir archivos…",
-  "form_filetypes": "PDF, JPG o PNG",
   "form_message": "Mensaje:",
   "ph_message": "Escribinos cualquier detalle o consulta aquí…",
   "form_name": "Nombre:",
   "ph_name": "Tu nombre",
   "form_email": "Correo electrónico:",
   "ph_email": "tumail@example.com",
-  "form_submit": "Enviar documentos",
+  "form_submit": "Enviar consulta",
 
   "faq_title": "Preguntas frecuentes",
 
