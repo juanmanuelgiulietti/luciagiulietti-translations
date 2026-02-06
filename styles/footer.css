@@ -14,11 +14,6 @@
 }
 
 /* Brand */
-.footer-name {
-  font-family: var(--ff-title);
-  font-weight: 600;
-  margin-bottom: 8px;
-}
 
 .footer-tagline {
   margin-bottom: 12px;

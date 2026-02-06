@@ -41,10 +41,13 @@
   "faq3_p2": "Digital NAATI translations are just as valid as ink-stamped translations.",
 
   "faq4_q": "What is NAATI?",
-  "faq4_p1": "NAATI is Australia’s national standards and certification authority for translators and interpreters. NAATI translations do not expire.",
+  "faq4_p1": "NAATI is the national standards and certification authority for translators and interpreters in Australia. Translations do not expire. AUSIT stands for “Australian Institute of Interpreters and Translators” and represents language professionals nationally in Australia to ensure quality and ethical standards.",
+
+  "faq5_q": "What is AUSIT?",
+  "faq5_p1": "The Australian Institute of Interpreters and Translators (AUSIT) is the national association for the translating and interpreting profession. Our members adhere to a strict Code of Ethics and follow continuous professional development",
 
   "footer_name": "Lucía Giulietti – Translations",
-  "footer_tagline": "Professional English ↔ Spanish translations",
+  "footer_tagline": "Professional English - Spanish translations",
   "footer_location": "Australia · International service",
   "footer_nav_title": "Navigation",
   "nav_about_footer": "About me",
@@ -52,7 +55,6 @@
   "footer_cred_title": "Credentials",
   "footer_cred_1": "NAATI-certified translator",
   "footer_cred_2": "AUSIT member",
-  "footer_cred_3": "NAATI translations valid in Australia",
   "footer_langs": "Español · English",
   "footer_copy": "© 2026 · Lucía Giulietti. All rights reserved.",
 
@@ -70,7 +72,7 @@
 
   "services_title": "Our services",
   "svc1_title": "Technical & scientific translations",
-  "svc1_p": "Accurate, specialised translations of technical and scientific documents.",
+  "svc1_p": "Accurate, specialised translations of technical or scientific documents.",
   "svc2_title": "NAATI-certified translations",
   "svc2_p": "Official NAATI-certified translations for migration, education and employment purposes.",
   "svc3_title": "NAATI interpreting",
@@ -78,16 +80,16 @@
   "svc4_title": "Transcription",
   "svc4_p": "Accurate conversion of audiovisual content into clear, structured text.",
   "svc5_title": "Editing & MTPE",
-  "svc5_p": "Professional review of translations produced with machine tools or translation memories.",
+  "svc5_p": "Professional review of texts or translations done with automated tools.",
   "see_more": "Learn more →",
 
   "features_title": "What sets us apart?",
   "feat1_title": "Human support",
-  "feat1_p": "From the first contact, you’ll speak with a professional who adapts to your needs, answers your questions and helps you achieve your goals. We understand that behind a translation there may be hope for business growth, a new job opportunity or the chance to move to a new country. We know what that means and we want to support you.",
+  "feat1_p": "You'll speak with a professional who will adapt to your needs, answer your questions, and help you achieve your goals, because we understand that behind every translation, there is a person seeking to fulfill a migration, employment, or educational dream.",
   "feat2_title": "Specialised team",
-  "feat2_p": "When we work with important documents, accuracy is essential. That’s why our translations are handled by professionals specialising in health, migration, education, e-learning, environmental topics and agriculture, among others. We use the appropriate terminology and follow each industry’s standards so your translations are accepted by the relevant authorities.",
+  "feat2_p": "When working with important documents, accuracy is essential. That's why our translations are handled by specialized professionals who use the appropriate terminology and adhere to industry standards, ensuring that the translations are accepted by the relevant authorities.",
   "feat3_title": "Speed & confidentiality",
-  "feat3_p": "We know that when launching a product, applying for a visa or winning a client abroad, time is valuable. That’s why we provide clear, convenient turnaround times so you can plan without delays. Your documents are safe: we follow NAATI and AUSIT codes of ethics to ensure confidentiality in every translation.",
+  "feat3_p": "We know that time is valuable. That's why we ensure you receive convenient and clear delivery times, so you can plan your strategy without delays. We guarantee the confidentiality of your documents and adhere to the NAATI and AUSIT codes of ethics.",
 
   "cta_title": "Ready to achieve your goals?",
   "cta_button": "Get started",
@@ -95,13 +97,14 @@
   "services_page_title": "Our services",
 
   "srv1_title": "Technical & scientific translations",
-  "srv1_p": "We work across a range of industries and help businesses expand, reach more clients and meet quality standards and cultural expectations in each country. We build translation memories to ensure consistency and terminology databases to guarantee accuracy for every client.",
+  "srv1_p": "We work with diverse industries, helping businesses expand, gain more customers, and meet the quality standards and cultural expectations of each country. We create translation memories to maintain consistency and terminology databases to ensure accuracy for every client.",
   "srv1_li1": "Health",
   "srv1_li2": "Migration",
   "srv1_li3": "Environment & conservation",
-  "srv1_li4": "E-learning",
+  "srv1_li4": "E-learning and Education",
   "srv1_li5": "Agriculture",
   "srv1_li6": "Website localisation",
+  "srv1_li7": "Other technical and scientific documents",
 
   "btn_quote": "Request a quote",
 
@@ -123,17 +126,16 @@
   "srv4_p": "Coming soon: NAATI-certified interpreting services for meetings, conferences and events in Australia. Stay tuned for updates!",
 
   "about_title": "About me",
-  "about_subtitle": "I’m Lucía Giulietti, a technical and scientific English translator. I work with accuracy, confidentiality and a human approach in every project.",
-  "about_lead": "I’m a technical and scientific English translator, graduated from IES en Lenguas Vivas “Juan Ramón Fernández”, one of Argentina’s most prestigious language institutes.",
-  "about_p1": "Since 2021, I’ve helped clients around the world achieve their goals: publishing scientific research, translating health courses, expanding into foreign markets, promoting climate action, and more. I’ve been part of globally-reaching organisations and the International Federation of Translators’ translation team, which means I work under the highest industry standards.",
-  "about_p2": "In 2023, I moved to Australia, where I travelled and immersed myself in the local culture. In 2024, with the goal of supporting people in their migration journeys, I obtained NAATI certification (English <> Spanish) and became a reliable ally for my clients. I follow NAATI and AUSIT codes of ethics to ensure the highest standards of quality, confidentiality and professionalism in every project.",
+  "about_lead": "I am Lucia Giulietti, a technical-scientific translator in English, a graduate of the IES en Lenguas Vivas “Juan Ramón Fernández”, one of the most prestigious language institutions in Argentina.",
+  "about_p1": "Since 2021, I have helped clients worldwide achieve their goals: publishing scientific articles, translating health courses, expanding into international markets, promoting climate action, and more. Having worked with global organizations and as a member of the International Federation of Translators' team of translators, I meet the highest industry standards.",
+  "about_p2": "In 2023, I moved to Australia, where I traveled extensively and immersed myself in the local culture. Then, with the goal of supporting people in their migration journeys, I obtained my NAATI English <> Spanish certification and became a trusted partner for my clients. I adhere to the NAATI and AUSIT codes of ethics to ensure the highest standards of quality, confidentiality, and professionalism in every project.",
   "about_highlight_title": "What I enjoy most about translation",
-  "about_highlight_text": "Creating a positive impact on people. Through a vaccine course translation, I can help promote health for thousands—especially in developing countries; with a NAATI translation, someone can achieve their dream of migrating; and with an English website, a business can expand internationally. I work with passion, commitment and professionalism in every project.",
+  "about_highlight_text": "To make a positive impact, because behind every translation there is a person with a goal: to access healthcare or other public services, to emigrate to another country, to expand their business into the international market, to publish a new scientific discovery, etc. I work with passion, commitment, and professionalism on every project.",
   "about_contact_title": "Let’s connect",
   "about_contact_text": "If you’d like to tell me about your project or have a question, reach out via:",
   "about_contact_email": "Email",
   "about_contact_linkedin": "LinkedIn",
-  "about_photo_caption": "Technical & scientific translator · NAATI (English ↔ Spanish)",
+  "about_photo_caption": "Lucía Giulietti, technical-scientific translator and NAATI certified",
 
   "form_urgency": "Delivery time:",
   "form_urgency_placeholder": "Select an option",
