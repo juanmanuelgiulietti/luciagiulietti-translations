@@ -223,8 +223,9 @@
   margin: 0 0 10px;
   font-family: var(--ff-body);
   color: var(--text-body);
-  line-height: 1.7;
+  line-height: 1.2;
   font-size: 0.98rem;
+  text-align: justify;
 }
 
 .faq p:last-child {

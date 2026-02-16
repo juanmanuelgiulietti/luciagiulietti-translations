@@ -1,13 +1,19 @@
 .hero-container {
-  background: url("../images/banner.png") no-repeat top center / cover;
-  min-height: 60vh;
+  background-image: url("../images/banner.svg");
+  background-repeat: no-repeat;
+
+  background-size: 100% auto;
+  background-position: center 80%; 
+
+  height: 550px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 3rem;
-  padding: 4rem 2rem;
+  gap: 2rem;
+  padding: 2rem;
 }
+
 
 .hero-container button {
   max-width: 250px;

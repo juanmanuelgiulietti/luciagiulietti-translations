@@ -26,21 +26,18 @@
   "faq_title": "Preguntas frecuentes",
 
   "faq1_q": "¿Cuánto cuesta una traducción NAATI? ¿Cuál es el plazo de entrega?",
-  "faq1_p1": "La cotización y el plazo de entrega dependerán de la cantidad de páginas, el formato del documento y la complejidad del contenido.",
-  "faq1_p2": "En general, los documentos de una página se entregan dentro de las 24 horas luego de la confirmación con el pago. Los documentos más largos suelen entregarse entre 2 y 4 días hábiles.",
-  "faq1_p3": "Se aplicará un recargo del 15 % para documentos urgentes.",
+  "faq1_p1": "La cotización y el plazo de entrega dependerán de la cantidad de páginas, el formato del documento y la complejidad del contenido. En general, los documentos de una página se entregan dentro de las 24 horas luego de la confirmación con el pago. Los documentos más largos suelen entregarse entre 1 y 3 días hábiles. Se aplicará un recargo del 15 % para documentos urgentes.",
 
   "faq2_q": "¿Cuáles son las formas de pago?",
   "faq2_p1": "Los encargos se confirman con el 100 % del pago. Compartiremos los datos bancarios o alternativas si no contás con cuenta en Australia.",
 
   "faq3_q": "¿Cuáles son las formas de entrega?",
-  "faq3_p1": "La traducción se entrega por correo electrónico con sello digital, salvo que se solicite una versión impresa.",
-  "faq3_p2": "Las traducciones digitales NAATI son igual de válidas que las traducciones con sello en tinta.",
+  "faq3_p1": "La traducción se entrega por correo electrónico con sello digital, salvo que se solicite una versión impresa. Las traducciones digitales NAATI son igual de válidas que las traducciones con sello en tinta. Es importante aclarar que las traducciones digitales NAATI son igual de válidas que las traducciones con sello en tinta.",
 
   "faq4_q": "¿Qué es NAATI?",
-  "faq4_p1": "NAATI es la autoridad nacional de normas y certificación para traductores e intérpretes en Australia. Las traducciones no tienen fecha de vencimiento. AUSIT significa “Instituto Australiano de Intérpretes y Traductores” y representa a los profesionales lingüísticos a nivel nacional en Australia para garantizar estándares de calidad y ética.",
+  "faq4_p1": "NAATI es la autoridad nacional de normas y certificación para traductores e intérpretes en Australia. Las traducciones no tienen fecha de vencimiento.",
   "faq5_q": "¿Qué es AUSIT?",
-  "faq5_p1": "El Instituto Australiano de Intérpretes y Traductores (AUSIT) es la asociación nacional de la profesión de traducción e interpretación. Nuestros miembros se adhieren a un estricto Código de Ética y se mantienen en constante desarrollo profesional.",
+  "faq5_p1": "AUSIT es el Instituto Australiano de Intérpetes y Traductores y representa a los profesionales lingüísticos a nivel nacional para garantizar estándares de calidad en la industria. Los miembros están en constante desarrollo profesional y se adhieren a un código de ética.",
 
   "footer_name": "Lucía Giulietti – Translations",
   "footer_tagline": "Traducciones profesionales inglés - español",
@@ -112,7 +109,7 @@
   "srv2_li3": "Certificados de antecedentes penales",
   "srv2_li4": "Diplomas y documentos universitarios",
   "srv2_li5": "Documentos de identificación o pasaportes",
-  "srv2_li6": "Cartas de recomendación, recibos de sueldo y otros documentos laborales.",
+  "srv2_li6": "Cartas de recomendación, recibos de sueldo y otros documentos laborales",
   "srv2_p2": "Traducimos todo tipo de documentos. No dudes en consultarnos si tu documento no está en la lista.",
 
   "srv3_title": "Edición y MTPE",
@@ -122,16 +119,17 @@
   "srv4_p": "Próximamente ofreceremos servicios de interpretación certificada NAATI para reuniones, conferencias y eventos en Australia. ¡Mantente atento a nuestras actualizaciones!",
 
   "about_title": "Sobre mí",
-  "about_lead": "Soy Lucia Giulietti, traductora técnico-científica EN inglés, graduada del IES en Lenguas Vivas “Juan Ramón Fernández”, una de las instituciones de idiomas más prestigiosas de Argentina.",
-  "about_p1": "Desde 2021, ayudo a clientes de todo el mundo a alcanzar sus objetivos: realizar una publicación científica, traducir un curso sobre salud, expandirse al mercado extranjero, promover la acción climática, entre otros. Formé parte de organizaciones con alcance mundial y del equipo de traductores de la Federación Internacional de Traductores, por lo que cumplo con los estándares más altos de la industria",
+  "about_lead": "Soy Lucía Giulietti, traductora técnico-científica en inglés, graduada del IES en Lenguas Vivas “Juan Ramón Fernández”, una de las instituciones de idiomas más prestigiosas de Argentina.",
+  "about_p1": "Desde 2021, ayudo a clientes de todo el mundo a alcanzar sus objetivos: realizar una publicación científica, traducir un curso sobre salud, expandirse al mercado extranjero, promover la acción climática, entre otros. Formé parte de organizaciones con alcance mundial y del equipo de traductores de la Federación Internacional de Traductores, por lo que cumplo con los estándares más altos de la industria.",
   "about_p2": "En 2023 me mudé a Australia, donde viajé y me empapé de la cultura local. Luego, con el propósito de acompañar a las personas en sus objetivos migratorios, obtuve la certificación NAATI inglés <> español y me convertí en una aliada confiable para mis clientes. Cumplo con los códigos de ética de NAATI y AUSIT para garantizar los más altos estándares de calidad, confidencialidad y profesionalismo en cada proyecto.",
   "about_highlight_title": "Lo que más disfruto de la traducción",
-  "about_highlight_text": "Generar un impacto positivo, ya que, detrás de cada traducción, hay una persona con un objetivo: acceder a la salud u otros servicios públicos, emigrar a otro país, o expandir su negocio al mercado internacional, publicar un nuevo descubrimiento científico, etc. Trabajo con pasión, compromiso y profesionalismo en cada proyecto.",
+  "about_highlight_text": "Generar un impacto positivo, ya que, detrás de cada traducción, hay una persona con un objetivo: acceder a la salud u otros servicios públicos, emigrar a otro país, expandir su negocio al mercado internacional, publicar un nuevo descubrimiento científico, etc. Trabajo con pasión, compromiso y profesionalismo en cada proyecto.",
   "about_contact_title": "Conectemos",
   "about_contact_text": "Si querés contarme sobre tu proyecto o tenés una consulta, escribime por:",
-  "about_contact_email": "Correo Electrónico",
+  "about_contact_email": "Correo electrónico",
   "about_contact_linkedin": "LinkedIn",
-  "about_photo_caption": "Lucía Giulietti, traductora técnico-científica y certificada NAATI",
+  "about_photo_caption": "Lucía Giulietti,\ntraductora técnico-científica,\ny certificada NAATI",
+
 
   "form_urgency": "Plazo de entrega:",
   "form_urgency_placeholder": "Seleccioná una opción",
