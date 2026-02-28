@@ -3,22 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>
+
+    <!-- SEO PRINCIPAL -->
+    <title data-i18n="naati_meta_title">
       Cotización de traducciones NAATI | Traductora certificada EN ↔ ES
     </title>
     <meta
       name="description"
       content="Solicitá tu cotización de traducciones NAATI inglés ↔ español. Documentos migratorios, educativos y laborales válidos en Australia. Respuesta rápida y sin compromiso."
+      data-i18n-attr="content:naati_meta_description"
     />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://tudominio.com/layout/naati.html" />
 
+    <!-- OPEN GRAPH -->
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="es_ES" />
-    <meta property="og:title" content="Cotización de traducciones NAATI" />
+    <meta
+      property="og:title"
+      content="Cotización de traducciones NAATI"
+      data-i18n-attr="content:naati_og_title"
+    />
     <meta
       property="og:description"
       content="Solicitá tu cotización de traducciones NAATI válidas en Australia. Inglés ↔ español."
+      data-i18n-attr="content:naati_og_description"
     />
     <meta property="og:url" content="https://tudominio.com/layout/naati.html" />
     <meta
@@ -26,11 +35,17 @@
       content="https://tudominio.com/images/og-cover.jpg"
     />
 
+    <!-- TWITTER -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Cotización de traducciones NAATI" />
+    <meta
+      name="twitter:title"
+      content="Cotización de traducciones NAATI"
+      data-i18n-attr="content:naati_twitter_title"
+    />
     <meta
       name="twitter:description"
       content="Traducciones NAATI inglés ↔ español. Cotización rápida y sin compromiso."
+      data-i18n-attr="content:naati_twitter_description"
     />
     <meta
       name="twitter:image"
@@ -99,6 +114,7 @@
       }
     </script>
   </head>
+
   <body>
     <header>
       <div class="navbar">
@@ -106,6 +122,7 @@
           <img
             src="../images/logo.png"
             alt="Logo de Lucia Giulietti Translations"
+            data-i18n-attr="alt:logo_alt"
             class="logo"
           />
         </a>
@@ -139,6 +156,7 @@
                   id="lang-mobile"
                   class="lang"
                   aria-label="Seleccionar idioma"
+                  data-i18n-attr="aria-label:lang_select_aria"
                 >
                   <option value="es">es</option>
                   <option value="en">en</option>
@@ -158,6 +176,7 @@
               id="lang"
               class="lang"
               aria-label="Seleccionar idioma"
+              data-i18n-attr="aria-label:lang_select_aria"
             >
               <option value="es">es</option>
               <option value="en">en</option>
@@ -174,7 +193,9 @@
     <main>
       <div class="quote-page">
         <div class="quote-title">
-          <h1 class="reveal" data-i18n="quote_title">Cotización de traducciones NAATI</h1>
+          <h1 class="reveal" data-i18n="quote_title">
+            Cotización de traducciones NAATI
+          </h1>
           <p class="reveal reveal--d1" data-i18n="quote_p1">
             Enviá tus documentos y revisamos todo por vos.
           </p>
@@ -187,16 +208,25 @@
         <section
           class="quote-timeline reveal reveal--d1"
           aria-label="Pasos para solicitar una cotización NAATI"
+          data-i18n-attr="aria-label:timeline_aria"
         >
           <ol class="timeline">
             <li class="timeline__item reveal">
               <span class="timeline__marker" aria-hidden="true"></span>
               <div class="timeline__content">
-                <h3 class="timeline__title reveal reveal--d1" data-i18n="timeline_t1">
+                <h3
+                  class="timeline__title reveal reveal--d1"
+                  data-i18n="timeline_t1"
+                >
                   Enviar consulta
                 </h3>
-                <p class="timeline__text reveal reveal--d2" data-i18n="timeline_p1">
-                  Escribir mensaje, completar tus datos y elegir el plazo de entrega. Al hacer clic en \"Enviar consulta\", se podrá adjuntar los documentos en PDF o JPG.
+                <p
+                  class="timeline__text reveal reveal--d2"
+                  data-i18n="timeline_p1"
+                >
+                  Escribir mensaje, completar tus datos y elegir el plazo de
+                  entrega. Al hacer clic en "Enviar consulta", se podrá adjuntar
+                  los documentos en PDF o JPG.
                 </p>
               </div>
             </li>
@@ -204,10 +234,16 @@
             <li class="timeline__item reveal reveal--d1">
               <span class="timeline__marker" aria-hidden="true"></span>
               <div class="timeline__content">
-                <h3 class="timeline__title reveal reveal--d2" data-i18n="timeline_t2">
+                <h3
+                  class="timeline__title reveal reveal--d2"
+                  data-i18n="timeline_t2"
+                >
                   Los revisamos
                 </h3>
-                <p class="timeline__text reveal reveal--d3" data-i18n="timeline_p2">
+                <p
+                  class="timeline__text reveal reveal--d3"
+                  data-i18n="timeline_p2"
+                >
                   Vemos cantidad de páginas, formato y complejidad para cotizar
                   con precisión.
                 </p>
@@ -217,18 +253,29 @@
             <li class="timeline__item reveal reveal--d2">
               <span class="timeline__marker" aria-hidden="true"></span>
               <div class="timeline__content">
-                <h3 class="timeline__title reveal reveal--d2" data-i18n="timeline_t3">
+                <h3
+                  class="timeline__title reveal reveal--d2"
+                  data-i18n="timeline_t3"
+                >
                   Confirmar precio y plazo
                 </h3>
-                <p class="timeline__text reveal reveal--d3" data-i18n="timeline_p3">
-                  Enviamos la cotización y el plazo de entrega. Esperamos la confirmación del proyecto.
+                <p
+                  class="timeline__text reveal reveal--d3"
+                  data-i18n="timeline_p3"
+                >
+                  Enviamos la cotización y el plazo de entrega. Esperamos la
+                  confirmación del proyecto.
                 </p>
               </div>
             </li>
           </ol>
         </section>
 
-        <section class="quote-form" aria-label="Formulario de cotización NAATI">
+        <section
+          class="quote-form"
+          aria-label="Formulario de cotización NAATI"
+          data-i18n-attr="aria-label:quote_form_aria"
+        >
           <form class="form" id="quoteForm" novalidate>
             <div class="field">
               <label class="label" for="message" data-i18n="form_message"
@@ -304,7 +351,9 @@
         </section>
 
         <section class="faq-container">
-          <h2 class="faq-title reveal" data-i18n="faq_title">Preguntas frecuentes</h2>
+          <h2 class="faq-title reveal" data-i18n="faq_title">
+            Preguntas frecuentes
+          </h2>
 
           <div class="faq reveal reveal--d1">
             <h2 data-i18n="faq1_q">
@@ -319,28 +368,40 @@
           <div class="faq reveal reveal--d2">
             <h2 data-i18n="faq2_q">¿Cuáles son las formas de pago?</h2>
             <p data-i18n="faq2_p1">
-              Los encargos se confirman con el 100 % del pago. Compartiremos los datos bancarios o alternativas en caso de no contar con cuenta en Australia
+              Los encargos se confirman con el 100 % del pago. Compartiremos los
+              datos bancarios o alternativas en caso de no contar con cuenta en
+              Australia
             </p>
           </div>
 
           <div class="faq reveal reveal--d3">
             <h2 data-i18n="faq3_q">¿Cuáles son las formas de entrega?</h2>
             <p data-i18n="faq3_p1">
-              La traducción se entrega por correo electrónico con sello digital, salvo que se solicite una versión impresa. Es importante aclarar que las traducciones digitales NAATI son igual de válidas que las traducciones con sello en tinta. Las traducciones no tienen
-              fecha de vencimiento.
+              La traducción se entrega por correo electrónico con sello digital,
+              salvo que se solicite una versión impresa. Es importante aclarar
+              que las traducciones digitales NAATI son igual de válidas que las
+              traducciones con sello en tinta. Las traducciones no tienen fecha
+              de vencimiento.
             </p>
           </div>
 
           <div class="faq reveal">
             <h2 data-i18n="faq4_q">¿Qué es NAATI?</h2>
             <p data-i18n="faq4_p1">
-              NAATI es la autoridad nacional en Australia que establece los estándares, evalúa competencias y certifica a traductores e intérpretes.
+              NAATI es la autoridad nacional en Australia que establece los
+              estándares, evalúa competencias y certifica a traductores e
+              intérpretes.
             </p>
           </div>
+
           <div class="faq">
             <h2 data-i18n="faq5_q">¿Qué es AUSIT?</h2>
             <p data-i18n="faq5_p1">
-              AUSIT es el Instituto Australiano de Intérpretes y Traductores y representa a los profesionales lingüísticos a nivel nacional para garantizar estándares de calidad en la industria. Los miembros están en constante desarrollo profesional y se adhieren a un código de ética.
+              AUSIT es el Instituto Australiano de Intérpretes y Traductores y
+              representa a los profesionales lingüísticos a nivel nacional para
+              garantizar estándares de calidad en la industria. Los miembros
+              están en constante desarrollo profesional y se adhieren a un
+              código de ética.
             </p>
           </div>
         </section>
@@ -393,6 +454,7 @@
               href="https://www.linkedin.com/in/luc%C3%ADa-g-0aaa58158/"
               target="_blank"
               rel="noopener"
+              data-i18n="footer_linkedin"
               >LinkedIn</a
             >
           </p>
@@ -420,9 +482,11 @@
       href="mailto:luciagiulietti@hotmail.com"
       class="mail-float"
       aria-label="Contactar por email"
+      data-i18n-attr="aria-label:mail_float_aria"
     >
       ✉️
     </a>
+
     <script src="../scripts/i18n.js"></script>
     <script src="../scripts/scripts.js"></script>
     <script
