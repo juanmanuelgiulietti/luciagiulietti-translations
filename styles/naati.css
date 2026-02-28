@@ -80,9 +80,9 @@
   background: rgba(73, 133, 60, 0.35);
 }
 
-.timeline__item:last-child .timeline__marker::after {
+/* .timeline__item:last-child .timeline__marker::after {
   display: none;
-}
+} */
 
 .timeline__title {
   margin: 0 0 6px;

@@ -69,10 +69,9 @@
 .section-1 { background-color: var(--green-500); }
 .section-2 { background-color: var(--green-300); }
 .section-3 { background-color: var(--green-800); border: none; }
-.section-4 { background-color: rgba(255, 255, 255, 0.7); }
+.section-4 { background-color: var(--green-100); }
 
 .section-4 h2::after {
-  content: " · Próximamente";
   font-family: var(--ff-ui);
   font-weight: 600;
   font-size: 0.95rem;
