@@ -147,13 +147,13 @@
 }
 
 .about-photo-caption {
-  margin: 0;
+  margin-top: 0.3rem;
   text-align: center;
-  font-size: 0.95rem;
-  line-height: 0.60;
-  color: rgba(0, 0, 0, 0.6);
+  font-size: 1rem;
+  line-height: 1.2; 
+  color: rgba(0, 0, 0, 0.7);
   font-family: var(--ff-body-alt);
-  white-space: pre-line;
+  white-space: pre-line; 
 }
 
 

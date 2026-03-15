@@ -25,14 +25,20 @@
   gap: 24px;
 }
 
-.nav-item a {
-  color: var(--white-95);
-  font-size: 18px;
-  font-family: var(--ff-ui);
-  font-weight: 600;
+/* Usamos el selector completo para que sea ultra específico */
+header .navbar .nav-links .nav-list li a {
+  color: var(--white-95) !important;
+  font-size: 18px !important;
+  font-family: var(--ff-ui) !important; /* Esto asegura Montserrat */
+  font-weight: 600 !important;
   letter-spacing: 0.2px;
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
 
+header .navbar .nav-links .nav-list li a:hover {
+  color: var(--black-75) !important;
+}
 .nav-item a:hover {
   color: var(--black-75);
 }
