@@ -5,6 +5,24 @@
   --black-85: rgba(0, 0, 0, 0.85);
 }
 
+/* Reset básico para evitar huecos y overflow */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+}
+
 .navbar {
   width: 100%;
   height: var(--navbar-height);
@@ -18,14 +36,24 @@
 
 .logo {
   height: 70px;
+  display: block;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
 }
 
 .nav-list {
   display: flex;
+  align-items: center;
   gap: 24px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-/* Usamos el selector completo para que sea específico */
+/* links */
 header .navbar .nav-links .nav-list li a {
   color: var(--white-95) !important;
   font-size: 18px !important;
@@ -39,6 +67,7 @@ header .navbar .nav-links .nav-list li a {
 header .navbar .nav-links .nav-list li a:hover {
   color: var(--black-75) !important;
 }
+
 .nav-item a:hover {
   color: var(--black-75);
 }
@@ -47,6 +76,7 @@ header .navbar .nav-links .nav-list li a:hover {
 .languages {
   display: flex;
   gap: 12px;
+  align-items: center;
 }
 
 .lang,
@@ -61,7 +91,8 @@ header .navbar .nav-links .nav-list li a:hover {
   border-radius: 3px;
   background-color: transparent;
   font-family: var(--ff-ui);
-  color: var(--black-85);
+  color: rgba(255, 255, 255, 0.95);
+  outline: none;
 }
 
 .lang option {
@@ -72,6 +103,7 @@ header .navbar .nav-links .nav-list li a:hover {
 .languages-mobile {
   display: none;
 }
+
 .languages .lang {
   color: rgba(255, 255, 255, 0.95);
   background-color: transparent;
@@ -82,63 +114,97 @@ header .navbar .nav-links .nav-list li a:hover {
 .hamburguer-menu {
   display: none;
   cursor: pointer;
-}
-.hamburger-menu span {
-  font-size: 32px;
-  color: var(--white-95);
+  align-items: center;
+  justify-content: center;
 }
 
-/* Mobile */
+.hamburguer-menu span {
+  font-size: 32px;
+  color: var(--white-95);
+  line-height: 1;
+}
+
+/* MOBILE */
 @media (max-width: 900px) {
-  .navbar {
-    justify-content: space-between;
-    padding: 12px 16px;
+  body {
+    padding-top: var(--navbar-height);
   }
+
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: var(--navbar-height);
+    background-color: var(--green-300);
+    z-index: 9999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+
   .logo {
-    height: 44px;
-    width: auto;
-    object-fit: contain;
-    display: block;
+    height: 60px;
   }
 
   .nav-links {
     position: fixed;
     top: var(--navbar-height);
     left: 0;
-    right: 0;
+    width: 100%;
     background-color: var(--green-500);
-    padding: 24px;
-    transform: translateY(calc(-100% - var(--navbar-height)));
-    transition: transform 0.3s ease;
-    z-index: 1000;
+    z-index: 9998;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 32px 0 24px;
+    margin: 0;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-120%);
+    transition:
+      transform 0.35s ease,
+      opacity 0.25s ease;
   }
 
   .nav-links.open {
+    opacity: 1;
+    pointer-events: auto;
     transform: translateY(0);
   }
 
   .nav-list {
+    display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 16px;
+    gap: 30px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
   }
 
-  .hamburguer-menu,
-  .hamburger-menu {
+  .nav-item {
+    width: 100%;
+  }
+
+  header .navbar .nav-links .nav-list li a {
+    font-size: 24px !important;
+    color: white !important;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .hamburguer-menu {
     display: flex;
-    align-items: center;
-    justify-content: center;
-
-    width: 44px;
-    height: 44px;
+    z-index: 10000;
     cursor: pointer;
-  }
-
-  .hamburguer-menu span,
-  .hamburger-menu span {
-    color: rgba(255, 255, 255, 0.95);
-    font-size: 32px;
-    line-height: 1;
   }
 
   .navbar > .languages {
@@ -147,11 +213,22 @@ header .navbar .nav-links .nav-list li a:hover {
 
   .languages-mobile {
     display: flex;
-    margin-top: 16px;
+    justify-content: center;
+    margin-top: 20px;
   }
+
+  .languages-mobile form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
   .languages-mobile .lang {
-    color: rgba(255, 255, 255, 0.95);
-    background-color: transparent;
-    border: none;
+    font-size: 18px;
+    color: var(--white-95);
+  }
+
+  .languages-mobile .lang-label {
+    color: var(--white-95);
   }
 }
