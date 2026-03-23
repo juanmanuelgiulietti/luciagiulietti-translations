@@ -137,7 +137,7 @@ header .navbar .nav-links .nav-list li a:hover {
     right: 0;
     width: 100%;
     height: var(--navbar-height);
-    background-color: var(--green-300);
+    background-color: var(--green-500);
     z-index: 9999;
     display: flex;
     justify-content: space-between;
